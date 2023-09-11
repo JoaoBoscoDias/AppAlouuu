@@ -67,10 +67,10 @@ export default function HomeScreen({navigation}){
         <ScrollView>
             <View>
                 <Text style={{textAlign:'center', paddingTop:20, fontSize:25, fontWeight:"bold"}}>AppAlouuu</Text>
-                <Button onPress={pickImage} mode="contained" style={{margin:20}}>Envie uma imagem!</Button>
+                <Button onPress={pickImage} mode="contained" >Envie uma imagem!</Button>
                 <Feed />
                 <Text style={{textAlign:'center', fontWeight:'bold', padding:10}}>Estado: {logado}</Text>
-                <Button onPress={logout} mode="contained" style={{margin:20}}>Sair</Button>
+                <Button onPress={logout} mode="contained" >Sair</Button>
             </View>
         </ScrollView>
     )
